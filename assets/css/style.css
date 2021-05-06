@@ -25,3 +25,33 @@ body {
     height: auto;
     width: 100%;
 }
+
+/* Nav links */
+
+#menu {
+    font-size: 110%;
+}
+
+#menu, #logo {
+    line-height: 150px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: /* tbc */
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #424554; 
+}
+
+.active {
+    border-bottom: 1px solid #424554; 
+}
+
