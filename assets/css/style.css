@@ -12,3 +12,16 @@ body {
     font-family: Montserrat, sans-serif; 
     font-weight: 200;
 }
+
+#logo {
+    padding: 0px;
+    height: 120px;
+    width: 900px;
+    float: left;
+}
+
+#hero-image {
+    padding: 0px;
+    height: auto;
+    width: 100%;
+}
