@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway&display=swap');
 
 * {
     margin: 0;
@@ -6,30 +6,42 @@
     border: none;
 }
 
-/* header */
-
 body {
     font-family: Montserrat, sans-serif; 
     font-weight: 200;
+    color: #212121
 }
+
+h1, h2 {
+    font-family: Montserrat, sans-serif; 
+    font-weight: 200;
+    color: #212121
+}
+
+/* header */
 
 #logo {
     padding: 0px;
     height: 120px;
     width: 900px;
     float: left;
+    position: fixed;
+    top: 0;
 }
 
-#hero-image {
-    padding: 0px;
-    height: auto;
+#header {
+    padding : 0px;
+    height: 120px;
     width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
 }
 
 /* Nav links */
 
 #menu {
-    font-size: 110%;
+    font-size: 115%;
 }
 
 #menu, #logo {
@@ -44,14 +56,29 @@ body {
 
 #menu a {
     text-decoration: none;
-    color: /* tbc */
+    color: inherit;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #424554; 
+    border-bottom: 1px solid #212121
 }
 
 .active {
-    border-bottom: 1px solid #424554; 
+    border-bottom: 1px solid #212121 
 }
 
+/* headline section */
+
+#headline {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+/* hero image section */
+
+#hero-image {
+    padding: 0px;
+    height: auto;
+    width: 100%;
+}
