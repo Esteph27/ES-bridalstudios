@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display+SC&display=swap');
 
 * {
     margin: 0;
@@ -8,15 +8,24 @@
 
 body {
     font-family: Montserrat, sans-serif; 
-    font-weight: 200;
     color: #212121;
 }
 
-h1, h2 {
+h1 {
+    font-family: Playfair Display SC, sans-serif; 
+    font-weight: 70;
+    color: #212121;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+/*
+h2 {
     font-family: Montserrat, sans-serif; 
-    font-weight: 200;
+    font-weight: 90;
     color: #212121;
 }
+*/
 
 /* header */
 
@@ -74,6 +83,15 @@ h1, h2 {
     height: 400px;
     background-color: white;
 }
+
+#headline {
+    padding: 250px;
+    text-align: center;
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 /* hero image section */
 
