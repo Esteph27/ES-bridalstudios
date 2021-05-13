@@ -74,14 +74,14 @@ h1 {
 #headline-area {
     width: 100%;
     height: 400px;
-    background-color: white;
+    background-color: #fcfafb;
 }
 
 #headline {
     padding: 250px;
     text-align: center;
     color: #212121;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -90,21 +90,59 @@ h1 {
 
 #hero-image {
     padding: 0px;
+    margin: 0;
     height: auto;
     width: 100%;
 }
 
-/* color block */
+/* supporting image */
 
-#color-block {
+#supporting-image {
     padding: 0px;
+    margin: 0;
     width: 100%;
-    height: 300px;
-    background-color: white;
+    height: 400px;
+
+    background-image: url(/assets/images/studio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 70%;
+    overflow: hidden;
 }
 
-#color-block h1 {
+/* note to self; need to change the #tranaparent-box id to button */
+
+#transparent-box h1 {
     text-align: center;
-    padding: 120px;
+    padding: 170px;
     font-size: 30px;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 6px;
+}
+
+#book-consulation {
+    text-decoration: none;
+}
+
+/* footer */
+
+footer {
+    height: 180px;
+    width: 100%;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links > li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 140%;
+    margin-top: 10%;
+    padding: 1%;
+    color: #212121;
 }
