@@ -25,10 +25,11 @@ h1 {
 #logo {
     padding: 0px;
     height: 120px;
-    width: 900px;
+    width: 890px;
     float: left;
     position: fixed;
     top: 0;
+    margin-left: 0.5%;
 }
 
 #header {
@@ -44,6 +45,7 @@ h1 {
 
 #menu {
     font-size: 115%;
+    float: right;
 }
 
 #menu, #logo {
@@ -51,7 +53,7 @@ h1 {
 }
 
 #menu li {
-    float: right;
+    display: inline;
     list-style-type: none;
     margin-right: 30px;
 }
@@ -59,6 +61,7 @@ h1 {
 #menu a {
     text-decoration: none;
     color: inherit;
+    display: inline;
 }
 
 #menu a:hover {
