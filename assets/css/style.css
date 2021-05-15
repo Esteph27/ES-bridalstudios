@@ -214,6 +214,8 @@ hr {
     letter-spacing: 2px;
 }
 
+/* image section */
+
 .image-left {
     height: 400px;
     width: 70%;
@@ -228,6 +230,10 @@ hr {
     background-color: red;
 }
 
+/* text sections */
+
+/* consultation */
+
 #text-right-consultation {
     height: 300px;
     width: 50%;
@@ -237,6 +243,14 @@ hr {
     right: 60px;
 }
 
+#text-right-consultation h1 {
+    padding: 2% 0% 2% 20%;
+    text-align: right;
+    float: right;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
 #text-right-consultation p {
     text-align: right;
     float: right;
@@ -244,42 +258,120 @@ hr {
     letter-spacing: 2px;
 }
 
+/* follow up */ 
+
 #text-left-follow {
     height: 300px;
     width: 50%;
-    background-color: blue;
+    background-color: rgba(252, 250, 251, 0.8);
     position: absolute;
     top: 135%;
     left: 60px;
 }
 
+#text-left-follow h1 {
+    padding: 2% 30% 2% 0%;
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#text-left-follow p {
+    text-align: left;
+    float: left;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+#text-left-follow .small-print {
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* design review */
+
 #text-right-design {
     height: 300px;
     width: 50%;
-    background-color: blue;
+    background-color: rgba(252, 250, 251, 0.8);
     position: absolute;
-    top: 190%;
+    top: 195%;
     right: 60px;
 }
+
+#text-right-design h1 {
+    padding: 2% 0% 2% 20%;
+    text-align: right;
+    float: right;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#text-right-design p {
+    text-align: right;
+    float: right;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+/* fittings */
 
 #text-left-fittings {
     height: 300px;
     width: 50%;
-    background-color: blue;
+    background-color: rgba(252, 250, 251, 0.8);
     position: absolute;
     top: 250%;
     left: 60px;
 }
 
+#text-left-fittings h1 {
+    padding: 2% 30% 2% 0%;
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#text-left-fittings p {
+    text-align: left;
+    float: left;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+
+/* final fittings */ 
+
 #text-right-final {
     height: 300px;
     width: 50%;
-    background-color: blue;
+    background-color: rgba(252, 250, 251, 0.8);
     position: absolute;
     top: 305%;
     right: 60px;
 }
 
+#text-right-final h1 {
+    padding: 2% 0% 2% 20%;
+    text-align: right;
+    float: right;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#text-right-final p {
+    text-align: right;
+    float: right;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+#text-right-final .small-print {
+    font-size: 12px;
+    font-style: italic;
+}
 
 
 /* footer */
