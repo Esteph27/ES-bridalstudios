@@ -215,6 +215,67 @@ hr {
 }
 
 
+/* The Details page */
+
+.image-left {
+    height: 400px;
+    width: 70%;
+    margin: 1% 4% 3% 2%;
+    background-color: red;
+}
+
+.image-right {
+    height: 400px;
+    width: 70%;
+    margin: 4% 25% 4%;
+    background-color: red;
+}
+
+#text-right-consultation {
+    height: 300px;
+    width: 50%;
+    background-color: blue;
+    position: absolute;
+    top: 680px;
+    right: 60px;
+}
+
+#text-left-follow {
+    height: 300px;
+    width: 50%;
+    background-color: blue;
+    position: absolute;
+    top: 135%;
+    left: 60px;
+}
+
+#text-right-design {
+    height: 300px;
+    width: 50%;
+    background-color: blue;
+    position: absolute;
+    top: 190%;
+    right: 60px;
+}
+
+#text-left-fittings {
+    height: 300px;
+    width: 50%;
+    background-color: blue;
+    position: absolute;
+    top: 250%;
+    left: 60px;
+}
+
+#text-right-final {
+    height: 300px;
+    width: 50%;
+    background-color: blue;
+    position: absolute;
+    top: 305%;
+    right: 60px;
+}
+
 /* footer */
 
 footer {
