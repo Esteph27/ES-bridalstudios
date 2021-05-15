@@ -155,6 +155,8 @@ h1 {
     font-size: 20px;
     font-weight: lighter;
     width: 40%;
+    background-color: rgba(252, 250, 251, 0.5);
+
 }
 
 .float-left {
@@ -176,10 +178,12 @@ h1 {
     text-align: right;
     float: right;
     font-size: 16px;
-    letter-spacing: 1px;
-    width: 40%;
+    letter-spacing: 2px;
+    width: 55%;
     padding-right: 3%;
-    padding-top: 8%;
+    padding-top: 40px;
+    padding-bottom: 0;
+    margin-top: 0;
 }
 
 hr {
@@ -187,6 +191,11 @@ hr {
     padding: 0;
 }
 
+#color-block {
+    width: 100%;
+    height: 150px;
+    background-color: #fcfafb;
+}
 
 
 /* footer */
