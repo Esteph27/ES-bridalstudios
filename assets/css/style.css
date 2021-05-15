@@ -109,7 +109,7 @@ h1 {
     width: 100%;
     height: 400px;
 
-    background-image: url(/assets/images/studio.jpg);
+    background-image: url(/assets/images/studio2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% 70%;
@@ -216,19 +216,72 @@ hr {
 
 /* image section */
 
-.image-left {
+
+#consulation-image  /* left */ {
     height: 400px;
     width: 70%;
     margin: 1% 4% 3% 2%;
-    background-color: red;
+
+    background-image: url('/assets/images/studio2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 70%;
+    overflow: hidden;
+    opacity: 0.8;
 }
 
-.image-right {
+#designr-image /* left */ {
+    height: 400px;
+    width: 70%;
+    margin: 1% 4% 3% 2%;
+
+    background-image: url('/assets/images/katy-duclos-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 70%;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+#final-fitting-image /* left */ {
+    height: 400px;
+    width: 70%;
+    margin: 1% 4% 3% 2%;
+
+    background-image: url('/assets/images/duo-chen-s-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 40%;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+#follow-image /* right */ {
     height: 400px;
     width: 70%;
     margin: 4% 25% 4%;
-    background-color: red;
+
+    background-image: url('/assets/images/jasmin-chew2-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 80%;
+    overflow: hidden;
+    opacity: 0.8;
 }
+
+#fitting-image /*right*/ {
+    height: 400px;
+    width: 70%;
+    margin: 4% 25% 4%;
+
+    background-image: url('/assets/images/weddingdress-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 55%;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
 
 /* text sections */
 
