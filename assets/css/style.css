@@ -537,7 +537,9 @@ hr {
     width: 40%;
     height: auto;
     background-color: blue;
+    margin: 0;
 }
+
 
 #contact-text h3 {
     font-size: 15px;
@@ -548,6 +550,7 @@ hr {
     width: 40%;
     height: auto;
     background-color: pink;
+    margin: 0;
 }
 
 .contact-details h1 {
@@ -569,10 +572,7 @@ hr {
 }
 
 #form {
-    float: right;
     text-align: right;
-    clear: both;
-    display: inline;
     width: 60%;
     height: auto;
     background-color: yellow;
