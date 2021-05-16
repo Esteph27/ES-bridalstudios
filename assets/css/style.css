@@ -615,7 +615,7 @@ hr {
 }
 
 #contact-text {
-    width: 100%;
+    width: auto;
     height: auto;
     margin: 0;
     display: inline-block;
@@ -635,12 +635,13 @@ hr {
 }
 
 .contact-details {
-    width: 100%;
+    width: auto;
     height: auto;
     background-color:white;
     margin: 0;
     padding-top: 2%;
     padding-bottom: 2%;
+    text-align: left;
 }
 
 .contact-details h1 {
@@ -649,7 +650,7 @@ hr {
     font-weight: bold;
     padding-left: 4%;
     padding-bottom: 2%;
-    text-align: center;
+    text-align: left;
 }
 
 .contact-details p {
@@ -657,16 +658,16 @@ hr {
     font-size: 16px;
     letter-spacing: 2px;
     padding-left: 4%;
-    text-align: center;
+    text-align: left;
     padding-bottom: 2%;
 }
+
 
 #form {
     height: auto;
     width: 50%;
     background-color: rgba(252, 250, 251, 0.8);
-    float: left;
-    margin: 4%;
+    margin-bottom: 2%;
 }
 
 label {
@@ -706,6 +707,11 @@ textarea {
     background-size: cover;
     background-position: 10% 5%;
     overflow: hidden;
+}
+
+#contact-image h1 {
+    text-align: center;
+    margin-top: 8%;
 }
 
 /* footer */
