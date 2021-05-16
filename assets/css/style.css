@@ -568,6 +568,17 @@ hr {
     padding-bottom: 5%;
 }
 
+#form {
+    float: right;
+    text-align: right;
+    clear: both;
+    display: inline;
+    width: 60%;
+    height: auto;
+    background-color: yellow;
+}
+
+
 /* footer */
 
 footer {
