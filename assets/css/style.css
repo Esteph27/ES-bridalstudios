@@ -179,6 +179,14 @@ h1 {
     letter-spacing: 6px;
 }
 
+#button a {
+    text-decoration: none;
+}
+
+#button h1:hover {
+    border-bottom: 1px solid #212121;
+}
+
 /* The Studios page */
 
 #jasmin {
@@ -492,6 +500,73 @@ hr {
     padding-left: 1%;
 }
 
+/* Brides page */
+
+#block {
+    width: 100%;
+    height: 400px;
+    background-color: red;
+}
+
+#block h1 {
+    padding: 250px;
+    text-align: center;
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* Contact page */
+
+#block2 {
+    width: 100%;
+    height: 400px;
+    background-color: red;
+}
+
+#block2 h1 {
+    padding: 250px;
+    text-align: center;
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#contact-text {
+    width: 40%;
+    height: auto;
+    background-color: blue;
+}
+
+#contact-text h3 {
+    font-size: 15px;
+    padding: 3% 3% 5% 3%;
+}
+
+.contact-details {
+    width: 40%;
+    height: auto;
+    background-color: pink;
+}
+
+.contact-details h1 {
+    color: #212121;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 3%;
+    padding-bottom: 5%;
+    text-align: left;
+}
+
+.contact-details p {
+    color: #212121;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-left: 3%;
+    text-align: left;
+    padding-bottom: 5%;
+}
 
 /* footer */
 
