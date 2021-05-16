@@ -554,6 +554,7 @@ hr {
 
 .paige-left h1, h2 {
     text-align: center;
+    letter-spacing: 10px;
 }
 
 .paige-left h1  {
@@ -569,11 +570,14 @@ hr {
 .paige-float-right {
     width: 40%;
     background-color: rgba(252, 250, 251, 0.8);
-    float: right;
+    position: absolute;
+    top: 160%;
+    right: 5%;
+
 }
 
 .paige-float-right p {
-    text-align: right;
+    text-align: left;
     font-size: 16px;
     letter-spacing: 2px;
     padding: 3%;
