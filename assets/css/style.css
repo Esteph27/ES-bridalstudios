@@ -87,7 +87,7 @@ h1 {
     padding: 250px;
     text-align: center;
     color: #212121;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -193,8 +193,8 @@ hr {
 
 #color-block {
     width: 100%;
-    height: 200px;
-    background-color: #fcfafb;
+    height: 100px;
+    background-color: lavendar;
 }
 
 /* The Details page */
@@ -214,13 +214,12 @@ hr {
     letter-spacing: 2px;
 }
 
-/* image section */
-
+/* image section left*/
 
 #consulation-image  /* left */ {
     height: 400px;
-    width: 70%;
-    margin: 1% 4% 3% 2%;
+    width: 60%;
+    margin: 1% 4% 10% 8%;
 
     background-image: url('/assets/images/studio2.jpg');
     background-repeat: no-repeat;
@@ -232,8 +231,8 @@ hr {
 
 #designr-image /* left */ {
     height: 400px;
-    width: 70%;
-    margin: 1% 4% 3% 2%;
+    width: 60%;
+    margin: 1% 4% 10% 8%;
 
     background-image: url('/assets/images/katy-duclos-unsplash.jpg');
     background-repeat: no-repeat;
@@ -245,21 +244,23 @@ hr {
 
 #final-fitting-image /* left */ {
     height: 400px;
-    width: 70%;
-    margin: 1% 4% 3% 2%;
+    width: 60%;
+    margin: 1% 4% 10% 8%;
 
     background-image: url('/assets/images/duo-chen-s-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 60% 40%;
+    background-position: 10% 40%;
     overflow: hidden;
     opacity: 0.8;
 }
 
+/* image section right*/
+
 #follow-image /* right */ {
     height: 400px;
-    width: 70%;
-    margin: 4% 25% 4%;
+    width: 60%;
+    margin: 4% 4% 10% 30%;
 
     background-image: url('/assets/images/jasmin-chew2-unsplash.jpg');
     background-repeat: no-repeat;
@@ -271,8 +272,8 @@ hr {
 
 #fitting-image /*right*/ {
     height: 400px;
-    width: 70%;
-    margin: 4% 25% 4%;
+    width: 60%;
+    margin: 4% 4% 10% 30%;
 
     background-image: url('/assets/images/weddingdress-unsplash.jpg');
     background-repeat: no-repeat;
@@ -292,23 +293,24 @@ hr {
     width: 50%;
     background-color: rgba(252, 250, 251, 0.8);
     position: absolute;
-    top: 680px;
-    right: 60px;
+    top: 90%;
+    right: 15%;
 }
 
 #text-right-consultation h1 {
-    padding: 2% 0% 2% 20%;
-    text-align: right;
-    float: right;
+    padding: 2% 20% 2% 1%;
+    text-align: left;
+    float: left;
     font-size: 20px;
     letter-spacing: 2px;
 }
 
 #text-right-consultation p {
-    text-align: right;
-    float: right;
+    text-align: left;
+    float: left;
     font-size: 16px;
     letter-spacing: 2px;
+    padding-left: 1%;
 }
 
 /* follow up */ 
@@ -318,12 +320,12 @@ hr {
     width: 50%;
     background-color: rgba(252, 250, 251, 0.8);
     position: absolute;
-    top: 135%;
-    left: 60px;
+    top: 150%;
+    left: 6%;
 }
 
 #text-left-follow h1 {
-    padding: 2% 30% 2% 0%;
+    padding: 2% 30% 2% 1%;
     text-align: left;
     float: left;
     font-size: 20px;
@@ -335,6 +337,7 @@ hr {
     float: left;
     font-size: 16px;
     letter-spacing: 2px;
+    padding-left: 1%;
 }
 
 #text-left-follow .small-print {
@@ -349,23 +352,24 @@ hr {
     width: 50%;
     background-color: rgba(252, 250, 251, 0.8);
     position: absolute;
-    top: 195%;
-    right: 60px;
+    top: 220%;
+    right: 12%;
 }
 
 #text-right-design h1 {
-    padding: 2% 0% 2% 20%;
-    text-align: right;
-    float: right;
+    padding: 1% 20% 4% 1%;
+    text-align: left;
+    float: left;
     font-size: 20px;
     letter-spacing: 2px;
 }
 
 #text-right-design p {
-    text-align: right;
-    float: right;
+    text-align: left;
+    float: left;
     font-size: 16px;
     letter-spacing: 2px;
+    padding-left: 1%;
 }
 
 /* fittings */
@@ -375,12 +379,12 @@ hr {
     width: 50%;
     background-color: rgba(252, 250, 251, 0.8);
     position: absolute;
-    top: 250%;
-    left: 60px;
+    top: 285%;
+    left: 12%;
 }
 
 #text-left-fittings h1 {
-    padding: 2% 30% 2% 0%;
+    padding: 2% 30% 2% 1%;
     text-align: left;
     float: left;
     font-size: 20px;
@@ -392,6 +396,7 @@ hr {
     float: left;
     font-size: 16px;
     letter-spacing: 2px;
+    padding-left: 1%;
 }
 
 
@@ -402,28 +407,30 @@ hr {
     width: 50%;
     background-color: rgba(252, 250, 251, 0.8);
     position: absolute;
-    top: 305%;
-    right: 60px;
+    top: 350%;
+    right: 8%;
 }
 
 #text-right-final h1 {
-    padding: 2% 0% 2% 20%;
-    text-align: right;
-    float: right;
+    padding: 2% 20% 2% 1%;
+    text-align: left;
+    float: left;
     font-size: 20px;
     letter-spacing: 2px;
 }
 
 #text-right-final p {
-    text-align: right;
-    float: right;
+    text-align: left;
+    float: left;
     font-size: 16px;
     letter-spacing: 2px;
+    padding-left: 1%;
 }
 
 #text-right-final .small-print {
     font-size: 12px;
     font-style: italic;
+    padding-left: 1%;
 }
 
 
