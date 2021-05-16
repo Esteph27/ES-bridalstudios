@@ -52,7 +52,7 @@ h1 {
     font-size: 115%;
     display: inline-block;
     clear: both;
-    margin-left: 60%;
+    margin-left: 62%;
 }
 
 #menu li {
@@ -75,19 +75,33 @@ h1 {
     border-bottom: 1px solid #212121; 
 }
 
-#dropdown {
+/* brides drop down menu - to revisit 
+
+.dropdown {
     font-size: 115%;
     clear: both;
-    background-color: white;
     display: inline-block;
-    
 }
 
-#dropdown a {
+#brides {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+.dropdown-list {
+    position: absolute;
+}
+
+.dropdown a {
     text-decoration: none;
     color: inherit;
-    display: inline;
+    display: block;
 }
+*/
+
+/* contact button - to revisit 
 
 #contact-button {
     font-size: 115%;
@@ -95,6 +109,17 @@ h1 {
     background-color: white;
     display: inline-block;
 }
+
+#contact-button a {
+    text-decoration: none;
+    color: inherit;
+    display: inline;
+}
+
+#contact-button a:hover {
+    border-bottom: 1px solid #212121;
+}
+*/
 
 /* home page */
 
