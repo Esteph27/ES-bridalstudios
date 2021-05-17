@@ -265,6 +265,7 @@ hr {
     background-size: cover;
     background-position: 20% 70%;
     overflow: hidden;
+    opacity: 0.8;
 }
 
 /* The Details page */
@@ -274,7 +275,7 @@ hr {
     margin: 0;
     width: 100%;
     height: 250px;
-    background-color: #fcfafb;
+    background-color: white;
 }
 
 #details-intro h2 {
@@ -609,41 +610,22 @@ hr {
     padding-bottom: 2%;
 }
 
-#block2 h1 {
-    padding: 250px;
+#block2 h2 {
+    float: center;
     text-align: center;
-    color: #212121;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-#contact-text {
-    width: auto;
-    height: auto;
-    margin: 0;
-    padding-bottom: 2%;
-}
-
-#contact-text p {
     font-size: 15px;
-    padding: 3% 3% 5% 3%;
-    color: #212121;
-    font-size: 16px;
     letter-spacing: 2px;
-    padding-left: 4%;
-    text-align: left;
-    padding-bottom: 2%;
-    text-align: center;
+    padding: 18% 8% 0% 8%;
 }
 
 .contact-details {
     height: auto;
     width: 900px;
-    margin-right: 60%;
     padding-top: 7%;
     text-align: left;
     margin-left: 2%;
     display: inline-block;
+    margin-right: 0;
 }
 
 .contact-details h1 {
@@ -659,21 +641,18 @@ hr {
     color: #212121;
     font-size: 16px;
     letter-spacing: 2px;
-    padding-left: 4%;
     text-align: left;
+    padding-left: 4%;
     padding-bottom: 2%;
-}
-
-.section {
-    display: inline-block
+    padding-right: 0;
+    margin: 0;
 }
 
 #form {
     height: auto;
     width: 900px;
     background-color: rgba(252, 250, 251, 0.8);
-    margin-left: 90%;
-    padding: 0;
+    float: right;
 }
 
 label {
