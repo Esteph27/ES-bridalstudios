@@ -624,6 +624,11 @@ hr {
     padding: 18% 8% 0% 8%;
 }
 
+#contact-copy {
+    width: 50%;
+    float: left;
+}
+
 .contact-details {
     height: auto;
     width: 900px;
@@ -656,7 +661,7 @@ hr {
 
 #form {
     height: auto;
-    width: 900px;
+    width: 50%;
     background-color: rgba(252, 250, 251, 0.8);
     float: right;
 }
