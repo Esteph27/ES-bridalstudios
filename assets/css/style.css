@@ -29,7 +29,7 @@ h1 {
     float: left;
     position: fixed;
     top: 0;
-    margin-left: 0.5%;
+    margin-left: 2%;
 }
 
 #header {
@@ -627,16 +627,17 @@ hr {
 #contact-copy {
     width: 50%;
     float: left;
+    padding-top: 2%;
 }
 
 .contact-details {
-    height: auto;
-    width: 900px;
+    height: 30%;
+    width: 50%;
     padding-top: 7%;
     text-align: left;
     margin-left: 2%;
-    display: inline-block;
     margin-right: 0;
+    display: inline;
 }
 
 .contact-details h1 {
@@ -644,7 +645,7 @@ hr {
     font-size: 15px;
     font-weight: bold;
     padding-left: 4%;
-    padding-bottom: 2%;
+    padding-bottom: 7%;
     text-align: left;
 }
 
@@ -654,7 +655,7 @@ hr {
     letter-spacing: 2px;
     text-align: left;
     padding-left: 4%;
-    padding-bottom: 2%;
+    padding-bottom: 7%;
     padding-right: 0;
     margin: 0;
 }
@@ -662,8 +663,10 @@ hr {
 #form {
     height: auto;
     width: 50%;
-    background-color: rgba(252, 250, 251, 0.8);
+    background-color: white;
     float: right;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 label {
