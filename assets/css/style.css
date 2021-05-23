@@ -128,7 +128,8 @@ h1 {
 #headline-area {
     width: 100%;
     height: 400px;
-    background-color: white
+    background-color: white;
+    margin-bottom: 2%;
 }
 
 #headline {
@@ -163,7 +164,7 @@ h1 {
     padding: 0px;
     margin: 0;
     width: 100%;
-    height: 400px;
+    height: 850px;
 
     background-image: url(/assets/images/studio2.jpg);
     background-repeat: no-repeat;
@@ -593,7 +594,6 @@ hr {
     position: absolute;
     top: 160%;
     right: 5%;
-
 }
 
 .paige-float-right p {
@@ -605,7 +605,8 @@ hr {
 
 #second-image-page {
     height: 650px;
-    width: 60%;
+    width: 50%;
+    float: left;
     margin-bottom: 5%;
 
     background-image: url('/assets/images/roberto-nickson-2unsplash.jpg');
@@ -701,8 +702,8 @@ textarea {
 #image-contact {
     height: 690px;
     width: 49%;
-    margin-bottom: 5%;
     float: right;
+    margin-bottom: 5%;
 
     background-image: url('/assets/images/roberto-nickson-2unsplash.jpg');
     background-repeat: no-repeat;
