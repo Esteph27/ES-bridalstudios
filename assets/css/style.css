@@ -364,7 +364,7 @@ hr {
 #text-right-consultation {
     height: 300px;
     width: 50%;
-    background-color: rgba(252, 250, 251, 0.8);
+    background-color: rgba(252, 250, 251, 0.9);
     position: absolute;
     top: 75%;
     right: 15%;
@@ -393,7 +393,7 @@ hr {
 #text-left-follow {
     height: 300px;
     width: 50%;
-    background-color: rgba(252, 250, 251, 0.8);
+    background-color: rgba(252, 250, 251, 0.9);
     position: absolute;
     top: 140%;
     left: 6%;
@@ -429,7 +429,7 @@ hr {
 #text-right-design {
     height: 300px;
     width: 50%;
-    background-color: rgba(252, 250, 251, 0.8);
+    background-color: rgba(252, 250, 251, 0.9);
     position: absolute;
     top: 210%;
     right: 12%;
@@ -458,7 +458,7 @@ hr {
 #text-left-fittings {
     height: 300px;
     width: 50%;
-    background-color: rgba(252, 250, 251, 0.8);
+    background-color: rgba(252, 250, 251, 0.9);
     position: absolute;
     top: 275%;
     left: 8%;
@@ -488,7 +488,7 @@ hr {
 #text-right-final {
     height: 300px;
     width: 50%;
-    background-color: rgba(252, 250, 251, 0.8);
+    background-color: rgba(252, 250, 251, 0.9);
     position: absolute;
     top: 340%;
     right: 8%;
