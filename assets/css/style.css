@@ -159,6 +159,7 @@ h1 {
     width: 100%;
     height: 450px;
     background-color: white;
+    margin-bottom: 5%;
 }
 
 #section-intro h1 {
@@ -166,7 +167,7 @@ h1 {
     color: #212121;
     font-size: 40px;
     letter-spacing: 6px;
-    padding-top: 3%;
+    padding-top: 5%;
     padding-bottom: 2%;
 }
 
@@ -181,9 +182,10 @@ h1 {
 /* testimonial section */
 
 #section-testimonial {
-    height: 850px;
+    height: 900px;
     width: 50%;
     float: left;
+    margin-bottom: 8%;
 
     background-image: url('/assets/images/roberto-nickson-2unsplash.jpg');
     background-repeat: no-repeat;
@@ -197,8 +199,8 @@ h1 {
     width: 40%;
     background-color: rgba(252, 250, 251, 0.8);
     position: absolute;
-    top: 180%;
-    right: 5%;
+    margin-left: 45%;
+    margin-top: 5%;
 }
 
 .float-right-her p {
@@ -206,11 +208,12 @@ h1 {
     font-size: 16px;
     letter-spacing: 2px;
     padding-left: 3%;
+    padding-right: 3%;
 }
 
 /* button section */
 
-#supporting-image {
+#section-button {
     padding: 0px;
     margin: 0;
     width: 100%;
@@ -651,15 +654,15 @@ textarea {
 }
 
 #image-contact {
-    height: 690px;
+    height: 750px;
     width: 49%;
     float: right;
     margin-bottom: 5%;
 
-    background-image: url('/assets/images/roberto-nickson-2unsplash.jpg');
+    background-image: url('/assets/images/anna-vi-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 55%;
+    background-position: 10% 90%;
     overflow: hidden;
     opacity: 0.8;
 }
