@@ -172,12 +172,42 @@ h1 {
 
 #section-intro p {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     letter-spacing: 2px;
     padding: 5% 4% 5% 4%;
 }
 
+/* testimonial section */
+
+.paige-float-right {
+    width: 40%;
+    background-color: rgba(252, 250, 251, 0.8);
+    position: absolute;
+    top: 160%;
+    right: 5%;
+}
+
+.paige-float-right p {
+    text-align: justify;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-left: 3%;
+}
+
+#second-image-page {
+    height: 650px;
+    width: 50%;
+    float: left;
+    margin-bottom: 5%;
+
+    background-image: url('/assets/images/roberto-nickson-2unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 55%;
+    overflow: hidden;
+    opacity: 0.8;
+}
 
 /* button section */
 
@@ -217,7 +247,7 @@ h1 {
     border-bottom: 1px solid #212121;
 }
 
-/* The Studios page */
+/* THE STUDIOS PAGE */
 
 #image-studiospage-jasmin {
     padding-top: 25%;
@@ -290,7 +320,7 @@ hr {
     opacity: 0.8;
 }
 
-/* The Details page */
+/* THE DETAILS PAGE */
 
 #details-intro {
     padding-top: 20%;
@@ -540,7 +570,7 @@ hr {
     text-align: justify;
 }
 
-/* Brides page */
+/* TAKE BRIDES PAGE OUT
 
 #block {
     width: 100%;
@@ -635,9 +665,10 @@ hr {
     overflow: hidden;
     opacity: 0.8;
 }
+*/
 
 
-/* Contact page */
+/* CONTACT PAGE */
 
 #contact-header {
         padding-top: 15%;
