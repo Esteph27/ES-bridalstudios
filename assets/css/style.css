@@ -179,6 +179,19 @@ h1 {
     padding: 5% 4% 5% 4%;
 }
 
+#image-intro {
+    padding-top: 25%;
+    margin: 0;
+    width: 100%;
+    height: 850px;
+
+    background-image: url('/assets/images/filipp-romanovski-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 75%;
+    overflow: hidden;
+}
+
 /* testimonial section */
 
 #section-testimonial {
