@@ -141,14 +141,14 @@ h1 {
 #section-heroimage {
     padding: 0px;
     margin: 0;
-    height: 990px;
+    height: 1500px;
     width: 100%;
     max-width: 100%;
 
-    background-image: url('/assets/images/roberto-nickson-unsplash.jpg');
+    background-image: url('/assets/images/filipp-romanovski-2-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 55%;
+    background-position: 20% 80%;
     overflow: hidden;
 }
 
@@ -158,7 +158,7 @@ h1 {
     margin: auto;
     width: 100%;
     height: 450px;
-    background-color: pink;
+    background-color: white;
 }
 
 #section-intro h1 {
@@ -193,9 +193,33 @@ h1 {
 
 /* sustainability section */
 
-#section-sustainability h1 {
+#section-image-sustainability {
+    padding-top: 25%;
+    margin: 0;
+    width: 100%;
+    height: 700px;
+    max-width: 100%;
+
+    background-image: url('/assets/images/ethan-bodnar-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 75%;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+#section-copy-sustainability h1 {
     text-align: center;
     font-size: 30px;
+    padding-top: 1%;
+}
+
+#section-copy-sustainability p {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 5% 15% 5% 15%;
 }
 
 /* testimonial section */
