@@ -235,7 +235,9 @@ h1 {
 #section-testimonial-copy h1 {
     text-align: center;
     font-size: 30px;
-    padding-top: 8%;
+    letter-spacing: 8px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 #section-testimonial-copy p {
@@ -243,31 +245,28 @@ h1 {
     font-size: 18px;
     text-align: center;
     letter-spacing: 2px;
-    padding: 2% 15% 5% 15%;
+    padding: 0% 15% 5% 15%;
 }
 
-/*
-.float-right-testimonial {
-    height: 980px;
-    width: 50%;
-    float: left;
 
-    background-image: url('/assets/images/lucas-mendes--unsplash.jpg');
+.float-right-testimonial {
+    height: 990px;
+    width: 50%;
+    float: right;
+
+    background-image: url('/assets/images/devon-divine-z2unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% 90%;
     overflow: hidden;
     opacity: 0.9;
 }
-*/
 
 
 .float-left-testimonial {
     height: 990px;
     width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 8%;
+    float: left;
 
     background-image: url('/assets/images/devon-divine-unsplash.jpg');
     background-repeat: no-repeat;
@@ -278,6 +277,30 @@ h1 {
 
 }
 
+#section-image-somethingmore {
+    padding: 0px;
+    margin: 0;
+    height: 1000px;
+    width: 100%;
+    max-width: 100%;
+
+    background-image: url('/assets/images/joanna-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 10%;
+    overflow: hidden;
+}
+
+#section-image-somethingmore h1 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 30%;
+
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+    background-color: rgba(252, 250, 251, 0.8);
+}
 
 /* button section */
 
