@@ -191,6 +191,13 @@ h1 {
     overflow: hidden;
 }
 
+/* sustainability section */
+
+#section-sustainability h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
 /* testimonial section */
 
 .float-right-testimonial {
@@ -220,17 +227,18 @@ h1 {
 
 }
 
-.float-right-her {
-    width: 40%;
-    background-color: rgba(252, 250, 251, 0.8);
+#float-right-her {
+    width: 100%;
+    height: auto;
+    background-color: blue;
 }
 
-.float-right-her h1 {
+#loat-right-her h1 {
     text-align: left;
     font-size: 30px;
 }
 
-.float-right-her p {
+#float-right-her p {
     text-align: justify;
     font-size: 16px;
     letter-spacing: 2px;
