@@ -343,13 +343,13 @@ h1 {
 
 /* THE STUDIOS PAGE */
 
-#image-studiospage-jasmin {
+#section-image-studios {
     padding-top: 25%;
     margin: 0;
     width: 100%;
-    height: 300px;
+    height: 400px;
 
-    background-image: url(/assets/images/jasmin-chew-unsplash.jpg);
+    background-image: url(/assets/images/thomas-ae-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 55%;
@@ -357,15 +357,13 @@ h1 {
 }
 
 
-#image-studiospage-jasmin h1 {
-    padding-right: 3%;
-    text-align: right;
-    float: right;
-    color: #212121;
+#section-image-studios h1 {
+    padding-left: 3%;
+    text-align: left;
+    float: left;
     font-size: 20px;
-    font-weight: lighter;
     width: 40%;
-    background-color: rgba(252, 250, 251, 0.5);
+    background-color: rgba(252, 250, 251, 0.8);
 
 }
 
@@ -404,14 +402,14 @@ hr {
 
 #image-studios-page {
     width: 100%;
-    height: 250px;
+    height: 800px;
 
-    background-image: url('/assets/images/studio2.jpg');
+    background-image: url('/assets/images/roberto-nickson-2unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 20% 50%;
+    background-position: 20% 80%;
     overflow: hidden;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 /* THE DETAILS PAGE */
