@@ -154,22 +154,22 @@ h1 {
 
 /* intro section */
 
-#section-copy-intro {
+.section-center {
     margin: auto;
     width: 100%;
     height: 450px;
     background-color: white;
 }
 
-#section-copy-intro h1 {
+.section-center h1 {
     text-align: center;
     color: #212121;
-    font-size: 50px;
-    letter-spacing: 8px;
-    padding-top: 5%;
+    font-size: 70px;
+    letter-spacing: 10px;
+    padding-top: 4%;
 }
 
-#section-copy-intro p {
+.section-center p {
     margin: 0;
     font-size: 18px;
     text-align: center;
@@ -234,7 +234,7 @@ h1 {
 
 #section-testimonial-copy h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 8px;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -277,6 +277,7 @@ h1 {
 
 }
 
+/* might take out 
 #section-image-somethingmore {
     padding: 0px;
     margin: 0;
@@ -301,6 +302,7 @@ h1 {
     width: 100%;
     background-color: rgba(252, 250, 251, 0.8);
 }
+*/
 
 /* button section */
 
@@ -347,58 +349,33 @@ h1 {
     padding-top: 25%;
     margin: 0;
     width: 100%;
-    height: 400px;
+    height: 600px;
 
-    background-image: url(/assets/images/thomas-ae-unsplash.jpg);
+    background-image: url(/assets/images/roberto-nickson-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 55%;
     overflow: hidden;
 }
 
-
 #section-image-studios h1 {
-    padding-left: 3%;
-    text-align: left;
-    float: left;
-    font-size: 20px;
-    width: 40%;
-    background-color: rgba(252, 250, 251, 0.8);
-
-}
-
-.float-left {
-    height: 300px;
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 1%;
-    padding: 0;
-}
-
-.float-left h1 {
-    float: left;
-    text-align: left;
-    padding-left: 3%;
-    padding-top: 9%;
-}
-
-.float-right {
-    text-align: justify;
-    float: right;
-    font-size: 16px;
-    letter-spacing: 2px;
-    width: 55%;
     padding-right: 3%;
-    padding-top: 50px;
-    padding-bottom: 0;
-    margin-top: 0;
+    text-align: left;
+    float: right;
+    font-size: 25px;
+    width: 40%;
+    background-color: rgba(252, 250, 251, 0.7);
+
 }
 
-hr {
-    border-top: 1px solid #212121;
-    padding: 0;
-}
 
+#section-copy-meet-esteph p {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 0% 15% 5% 15%;
+}
 
 #image-studios-page {
     width: 100%;
