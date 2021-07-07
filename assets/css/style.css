@@ -166,15 +166,14 @@ h1 {
     color: #212121;
     font-size: 70px;
     letter-spacing: 10px;
-    padding-top: 4%;
+    margin-top: 4%;
 }
 
 .section-center p {
-    margin: 0;
     font-size: 18px;
     text-align: center;
     letter-spacing: 2px;
-    padding: 5% 15% 5% 15%;
+    margin: 5% 15% 5% 15%;
 }
 
 #image-center {
@@ -260,7 +259,6 @@ h1 {
     opacity: 0.9;
 }
 
-
 .float-left-testimonial {
     height: 990px;
     width: 50%;
@@ -324,7 +322,7 @@ h1 {
     background-image: url(/assets/images/roberto-nickson-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 55%;
+    background-position: 20% 80%;
     overflow: hidden;
 }
 
@@ -337,14 +335,25 @@ h1 {
     background-color: rgba(252, 250, 251, 0.7);
 }
 
+.section-center h2 {
+    float: center;
+    text-align: center;
+    margin-top: 5%;
+    font-family: Playfair Display SC, sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+
 .section-bottom {
     width: 100%;
     height: 800px;
+    margin-top: 5%;
 
     background-image: url('/assets/images/roberto-nickson-2unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 20% 80%;
+    background-position: 70%;
     overflow: hidden;
     opacity: 0.9;
 }
@@ -360,7 +369,6 @@ h1 {
 }
 
 .section h2 {
-    float: center;
     text-align: center;
     font-size: 15px;
     letter-spacing: 2px;
