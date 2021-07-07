@@ -138,7 +138,7 @@ h1 {
 
 /* hero image section */
 
-#section-heroimage {
+#hero-image {
     padding: 0px;
     margin: 0;
     height: 1500px;
@@ -152,7 +152,7 @@ h1 {
     overflow: hidden;
 }
 
-/* intro section */
+/* center section (intro) */
 
 .section-center {
     margin: auto;
@@ -177,7 +177,7 @@ h1 {
     padding: 5% 15% 5% 15%;
 }
 
-#image-intro {
+#image-center {
     padding-top: 25%;
     margin: 0;
     width: 100%;
@@ -193,8 +193,7 @@ h1 {
 
 /* sustainability section */
 
-
-#section-image-sustainability h1 {
+#section-sustainability h1 {
     margin-top: 10%;
     text-align: center;
     font-size: 30px;
@@ -203,7 +202,7 @@ h1 {
     background-color: rgba(252, 250, 251, 0.9);
 }
 
-#section-image-sustainability p {
+#section-sustainability p {
     margin: 0;
     font-size: 18px;
     text-align: center;
@@ -212,7 +211,7 @@ h1 {
     background-color: rgba(252, 250, 251, 0.9);
 }
 
-#section-image-sustainability {
+#section-sustainability {
     margin: 0;
     width: 100%;
     height: 700px;
@@ -227,12 +226,12 @@ h1 {
 
 /* testimonial section */
 
-#section-testimonial-copy {
+#section-testimonial {
     width: 100%;
     height: auto;
 }
 
-#section-testimonial-copy h1 {
+#section-testimonial h1 {
     text-align: center;
     font-size: 40px;
     letter-spacing: 8px;
@@ -240,14 +239,13 @@ h1 {
     padding-bottom: 5%;
 }
 
-#section-testimonial-copy p {
+#section-testimonial p {
     margin: 0;
     font-size: 18px;
     text-align: center;
     letter-spacing: 2px;
     padding: 0% 15% 5% 15%;
 }
-
 
 .float-right-testimonial {
     height: 990px;
@@ -277,36 +275,9 @@ h1 {
 
 }
 
-/* might take out 
-#section-image-somethingmore {
-    padding: 0px;
-    margin: 0;
-    height: 1000px;
-    width: 100%;
-    max-width: 100%;
-
-    background-image: url('/assets/images/joanna-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 90% 10%;
-    overflow: hidden;
-}
-
-#section-image-somethingmore h1 {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    margin-top: 30%;
-
-    text-align: center;
-    font-size: 35px;
-    width: 100%;
-    background-color: rgba(252, 250, 251, 0.8);
-}
-*/
-
 /* button section */
 
-#section-button {
+#section-consultation {
     padding: 0px;
     margin: 0;
     width: 100%;
