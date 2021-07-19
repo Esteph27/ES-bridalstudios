@@ -317,12 +317,12 @@ h1 {
     padding-top: 25%;
     margin: 0;
     width: 100%;
-    height: 600px;
+    height: 770px;
 
-    background-image: url(/assets/images/roberto-nickson-unsplash.jpg);
+    background-image: url('/assets/images/roberto-nickson-2unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 20% 80%;
+    background-position: 60% 40%;
     overflow: hidden;
 }
 
@@ -335,20 +335,78 @@ h1 {
     background-color: rgba(252, 250, 251, 0.7);
 }
 
-.section-center h2 {
-    float: center;
-    text-align: center;
-    margin-top: 5%;
-    font-family: Playfair Display SC, sans-serif;
-    font-size: 35px;
-    font-weight: lighter;
-    letter-spacing: 4px;
+#float-right-designer {
+    margin: auto;
+    width: 50%;
+    height: 300px;
+    float: right;
+    background-color: pink;
+}
+
+#float-right-designer h1 {
+    font-size: 40px;
+    text-align: left;
+    letter-spacing: 10px;
+    margin: 0% 5% 5% 0%;
+}
+
+#float-right-designer h2 {
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 5px;
+    margin: 0% 5% 5% 0%;
+}
+
+#float-right-designer p {
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0% 5% 5% 0%;
+}
+
+#section-image-float-left {
+    width: 50%;
+    height: 900px;
+    float: left;
+
+    background-image: url('/assets/images/IMG_6900.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 40%;
+    overflow: hidden;
+}
+
+#section-image-float-right {
+    width: 50%;
+    height: 900px;
+    float: left;
+
+    background-image: url('/assets/images/IMG_6900.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 40%;
+    overflow: hidden;
+}
+
+#section-image-designer {
+    width: 50%;
+    height: 800px;
+    float: left;
+    background-color: pink;
+
+}
+
+#section-ethos {
+    width: 100%;
+    height: 600px;
+    float: left;
+    background-color: red;
 }
 
 .section-bottom {
     width: 100%;
     height: 800px;
-    margin-top: 5%;
+    margin-top: 30%;
 
     background-image: url('/assets/images/roberto-nickson-2unsplash.jpg');
     background-repeat: no-repeat;
