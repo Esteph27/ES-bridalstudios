@@ -178,15 +178,16 @@ h1 {
 
 #image-center {
     padding-top: 25%;
-    margin: 0;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    width: 80%;
     height: 1500px;
-    max-width: 100%;
 
     background-image: url('/assets/images/filipp-romanovski-2-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 25% 75%;
+    background-position: 30% 70%;
     overflow: hidden;
 }
 
@@ -252,11 +253,12 @@ h1 {
 }
 
 #section-testimonial h1 {
+    color: #212121;
+    font-size: 80px;
+    letter-spacing: 15px;
+    margin-top: 4%;
+    margin-bottom: 4%;
     text-align: center;
-    font-size: 40px;
-    letter-spacing: 8px;
-    padding-top: 5%;
-    padding-bottom: 5%;
 }
 
 #section-testimonial p {
@@ -264,31 +266,21 @@ h1 {
     font-size: 18px;
     text-align: center;
     letter-spacing: 2px;
-    padding: 0% 15% 5% 15%;
+    padding: 0% 20% 5% 20%;
 }
 
-.float-right-testimonial-image {
-    height: 990px;
-    width: 50%;
-    float: right;
-
-    background-image: url('/assets/images/devon-divine-z2unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 10% 90%;
-    overflow: hidden;
-    opacity: 0.9;
-}
 
 .float-left-testimonial-image {
-    height: 990px;
-    width: 50%;
-    float: left;
+    height: 1500px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
 
     background-image: url('/assets/images/paige_b&w_2.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 10% 90%;
+    background-position: 40% 60%;
     overflow: hidden;
     opacity: 0.9;
 
