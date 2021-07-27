@@ -141,7 +141,7 @@ h1 {
 #hero-image {
     padding: 0px;
     margin: 0;
-    height: 1500px;
+    height: 1550px;
     width: 100%;
     max-width: 100%;
 
@@ -164,8 +164,8 @@ h1 {
 .section-center h1 {
     text-align: center;
     color: #212121;
-    font-size: 70px;
-    letter-spacing: 10px;
+    font-size: 80px;
+    letter-spacing: 15px;
     margin-top: 4%;
 }
 
@@ -173,14 +173,14 @@ h1 {
     font-size: 18px;
     text-align: center;
     letter-spacing: 2px;
-    margin: 5% 15% 5% 15%;
+    margin: 5% 20% 5% 20%;
 }
 
 #image-center {
     padding-top: 25%;
     margin: 0;
     width: 100%;
-    height: 700px;
+    height: 1500px;
     max-width: 100%;
 
     background-image: url('/assets/images/filipp-romanovski-2-unsplash.jpg');
@@ -206,14 +206,14 @@ h1 {
     font-size: 18px;
     text-align: center;
     letter-spacing: 2px;
-    padding: 5% 15% 5% 15%;
+    padding: 5% 20% 5% 20%;
     background-color: rgba(252, 250, 251, 0.9);
 }
 
 #section-sustainability {
     margin: 0;
     width: 100%;
-    height: 700px;
+    height: 800px;
     max-width: 100%;
 
     background-image: url('/assets/images/ethan-bodnar-unsplash.jpg');
@@ -222,6 +222,27 @@ h1 {
     background-position: 25% 75%;
     overflow: hidden;
 }
+
+/*
+#button1 {
+    border: none;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    appearance: auto;
+}
+
+#button h1 {
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 6px;
+}
+
+#button1 a {
+    text-decoration: none;
+}
+*/ 
 
 /* testimonial section */
 
