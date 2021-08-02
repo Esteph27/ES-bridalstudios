@@ -390,11 +390,12 @@ h2 {
     float: right;
 }
 
-#float-right-text-designer h2 {
-    font-size: 20px;
-    text-align: left;
-    letter-spacing: 10px;
-    margin: 10% 10% 0% 0%;
+#float-right-text-designer h3 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin: 0% 10% 10% 0%;
 }
 
 #float-right-text-designer p {
@@ -404,12 +405,28 @@ h2 {
     margin: 0% 15% 10% 0%;
 }
 
-#float-right-text-designer a {
+.overlay-text-box {
+    background-color: rgba(245, 245, 245, 0.6);
+    margin-right: 5%;
+    margin-top: 15%;
+    height:400px;
+}
+
+.overlay-text-box h2 {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 10px;
+    margin: 0% 5% 0% 5%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.overlay-text-box a {
     text-decoration: none;
     color: #212121;
 }
 
-#float-right-text-designer a:hover {
+.overlay-text-box a:hover {
    text-decoration: underline;
 }
 
