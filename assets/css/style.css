@@ -391,18 +391,10 @@ h2 {
 }
 
 #float-right-text-designer h2 {
-    font-size: 60px;
-    text-align: center;
+    font-size: 20px;
+    text-align: left;
     letter-spacing: 10px;
     margin: 10% 10% 0% 0%;
-}
-
-#float-right-text-designer h3 {
-    font-size: 16px;
-    text-align: center;
-    font-weight:lighter;
-    letter-spacing: 2px;
-    margin-bottom: 10%;
 }
 
 #float-right-text-designer p {
@@ -439,36 +431,36 @@ h2 {
 #section-ethos {
     width: 100%;
     height: auto;
-    background-color: white;
+
+    background-image: url('/assets/images/IMG_6898.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 40%;
+    overflow: hidden;
+    filter: grayscale(60%);
 }
 
 #section-ethos h2 {
     text-align: center;
     font-size: 30px;
     letter-spacing: 10px;
-    margin: 0% 20% 5% 20%;
+    margin: 5% 20% 5% 20%;
 }
 
 #section-ethos p {
     font-size: 16px;
     text-align: center;
+    font-weight: bolder;
     letter-spacing: 2px;
     margin: 0% 20% 5% 20%;
 }
 
-#image-studios {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    width: 80%;
-    height: 1500px;
-
-    background-image: url('/assets/images/IMG_6898.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 30% 70%;
-    overflow: hidden;
-    filter: grayscale(80%);
+.overlay {
+    background-color: rgba(252, 250, 251, 0.4);
+    height: auto;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* THE DETAILS PAGE */
