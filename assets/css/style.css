@@ -406,8 +406,7 @@ h2 {
 }
 
 .overlay-text-box {
-    background-color: rgba(245, 245, 245, 0.6);
-    margin-right: 5%;
+    margin-right: 10%;
     margin-top: 15%;
     height:400px;
 }
@@ -720,6 +719,19 @@ h2 {
     padding-left: 1%;
     padding-right: 1%;
     text-align: justify;
+}
+
+
+#section-cta {
+    height: 600px;
+    width: 100%;
+    background-color: lavender;
+}
+
+#section-cta h2 {
+   text-align: center;
+   letter-spacing: 5px;
+   padding: 10%;
 }
 
 /* CONTACT PAGE */
