@@ -460,6 +460,7 @@ h2 {
 
 /* THE DETAILS PAGE */
 
+
 .section {
     padding-top: 20%;
     margin: 0;
@@ -468,11 +469,12 @@ h2 {
     background-color: white;
 }
 
-.section h2 {
-    text-align: center;
-    font-size: 15px;
+.section p {
+    font-size: 16px;
     letter-spacing: 2px;
+    text-align: center;
 }
+
 
 /* 1. consulation */
 
@@ -523,12 +525,13 @@ h2 {
     width: 60%;
     margin: 4% 4% 10% 30%;
 
-    background-image: url('/assets/images/anais-murith-unsplash.jpg');
+    background-image: url('/assets/images/IMG_6898.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 10% 5%;
+    background-position: 30% 70%;
     overflow: hidden;
     opacity: 0.8;
+    filter: grayscale(50%);
 }
 
 #float-left-followup {
@@ -571,12 +574,13 @@ h2 {
     width: 60%;
     margin: 1% 4% 10% 8%;
 
-    background-image: url('/assets/images/charisse-kenion-s_unsplash.jpg');
+    background-image: url('/assets/images/lace_skirt.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 60% 60%;
+    background-position: 70% 30%;
     overflow: hidden;
     opacity: 0.8;
+    filter:grayscale(50%);
 }
 
 #float-right-review {
@@ -642,8 +646,7 @@ h2 {
     float: left;
     font-size: 16px;
     letter-spacing: 2px;
-    padding-left: 1%;
-    padding-right: 1%;
+    margin: 1% 5% 1% 1%;
     text-align: justify;
 }
 
@@ -685,8 +688,7 @@ h2 {
     float: left;
     font-size: 16px;
     letter-spacing: 2px;
-    padding-left: 1%;
-    padding-right: 1%;
+    margin: 1% 5% 1% 1%;
     text-align: justify;
 }
 
@@ -700,51 +702,47 @@ h2 {
 
 
 .section-cta {
-    height: 300px;
+    margin: 0;
     width: 100%;
-    background-color: lavender;
+    height: 600px;
+    max-width: 100%;
+    background-color: white;
 }
 
 .section-cta h2 {
    text-align: center;
    letter-spacing: 5px;
-   margin-top: 5%;
-   margin-bottom: 5%;
+   padding-top: 5%;
+   margin-bottom: 2%;
 }
 
-.section-cta a {
-    text-decoration: none;
-    color: #212121;
-}
-    
-.section-cta a:hover {
-    text-decoration: underline 1px solid #212121;
-}
-
-/* button-yes */
-
-#button-yes {
+#button-2 {
     border: none;
-    background-color: rgba(252, 250, 251, 0.8);
+    background-color: transparent;
     width: 20%;
     height: 120px;
     margin: auto;
     display: block;
 }
 
-#button-yes h1 {
+#button-2 h1 {
     text-align: center;
     font-size: 50px;
     letter-spacing: 5px;
 }
 
-#button-yes a {
+#button-2 a {
     text-decoration: none;
 }
 
-#button-yes h1:hover {
+#button-2 h1:hover {
     border-bottom: 1px solid #212121;
 }
+
+#button-2 h2:hover {
+    border-bottom: 1px solid #212121;
+}
+
 
 /* CONTACT PAGE */
 
@@ -755,10 +753,10 @@ h2 {
     padding-bottom: 1%;
 }
 
-.section p {
-        font-size: 15px;
-        letter-spacing: 2px;
-        text-align: center;
+.section h2 {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
 }
 
 #form {
