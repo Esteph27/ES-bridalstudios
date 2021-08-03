@@ -241,27 +241,6 @@ h2 {
     overflow: hidden;
 }
 
-/*
-#button1 {
-    border: none;
-    height: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    appearance: auto;
-}
-
-#button h1 {
-    text-align: center;
-    font-size: 35px;
-    letter-spacing: 6px;
-}
-
-#button1 a {
-    text-decoration: none;
-}
-*/ 
-
 /* testimonial section */
 
 #section-testimonial {
@@ -426,7 +405,7 @@ h2 {
 }
 
 .overlay-text-box a:hover {
-   text-decoration: underline;
+   text-decoration: underline 1px solid #212121;
 }
 
 #float-left-image-designer {
@@ -508,6 +487,7 @@ h2 {
     background-position: 60% 70%;
     overflow: hidden;
     opacity: 0.8;
+    filter:grayscale(50%);
 }
 
 #float-right-consultation {
@@ -532,8 +512,7 @@ h2 {
     float: left;
     font-size: 16px;
     letter-spacing: 2px;
-    padding-left: 1%;
-    padding-right: 1%;
+    margin: 1% 5% 1% 1%;
     text-align: justify;
 }
 
@@ -574,8 +553,7 @@ h2 {
     float: left;
     font-size: 16px;
     letter-spacing: 2px;
-    padding-left: 1%;
-    padding-right: 1%;
+    margin: 1% 5% 1% 1%;
     text-align: justify;
 }
 
@@ -623,8 +601,7 @@ h2 {
     float: left;
     font-size: 16px;
     letter-spacing: 2px;
-    padding-left: 1%;
-    padding-right: 1%;
+    margin: 1% 5% 1% 1%;
     text-align: justify;
 }
 
@@ -722,16 +699,51 @@ h2 {
 }
 
 
-#section-cta {
-    height: 600px;
+.section-cta {
+    height: 300px;
     width: 100%;
     background-color: lavender;
 }
 
-#section-cta h2 {
+.section-cta h2 {
    text-align: center;
    letter-spacing: 5px;
-   padding: 10%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+
+.section-cta a {
+    text-decoration: none;
+    color: #212121;
+}
+    
+.section-cta a:hover {
+    text-decoration: underline 1px solid #212121;
+}
+
+/* button-yes */
+
+#button-yes {
+    border: none;
+    background-color: rgba(252, 250, 251, 0.8);
+    width: 20%;
+    height: 120px;
+    margin: auto;
+    display: block;
+}
+
+#button-yes h1 {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+#button-yes a {
+    text-decoration: none;
+}
+
+#button-yes h1:hover {
+    border-bottom: 1px solid #212121;
 }
 
 /* CONTACT PAGE */
