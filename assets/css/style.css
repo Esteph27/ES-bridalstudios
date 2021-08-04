@@ -835,6 +835,7 @@ textarea {
 
 /* FAQ */ 
 
+
 #section-faq {
     width: 100%;
     max-width: 100%;
@@ -842,14 +843,12 @@ textarea {
     margin-top: 5%;
     margin-bottom: 5%;
 
-    /*
-    background-image: url('/assets/images/pexels-oliver-jpg.jpg');
+    background-image: url('/assets/images/burcu-dogan-gp2kSf1fNLA-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:right;
+    background-position:center;
     overflow: hidden;
-    filter: grayscale(80%);
-    */
+    filter: grayscale(70%);
 }
 
 #section-faq h2 {
