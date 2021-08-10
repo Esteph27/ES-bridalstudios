@@ -173,7 +173,7 @@ h2 {
     text-align: center;
     color: #212121;
     font-size: 80px;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     margin-top: 5%;
 }
 
@@ -207,6 +207,16 @@ h2 {
     background-position: 30% 70%;
     overflow: hidden;
 }
+
+#image-center h1 {
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 5px;
+    width: auto;
+    margin-top: 90%;
+    background-color: rgba(252, 250, 251, 0.7);
+}
+
 
 /* sustainability section */
 
@@ -275,19 +285,18 @@ h2 {
 
 .section-testimonial h2 {
     color: #212121;
-    font-size: 25px;
+    font-size: 30px;
     letter-spacing: 15px;
-    margin-top: 4%;
-    margin-bottom: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     text-align: center;
 }
 
 .section-testimonial p {
-    margin: 0;
     font-size: 16px;
     text-align: center;
     letter-spacing: 2px;
-    padding: 0% 20% 5% 20%;
+    margin: 5% 20% 0% 20%;
 }
 
 
@@ -296,6 +305,7 @@ h2 {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5%;
 
     background-image: url('/assets/images/p&j-4.jpg');
     background-repeat: no-repeat;
@@ -416,43 +426,27 @@ h2 {
     float: right;
 }
 
-#float-right-text-designer h3 {
-    font-size: 16px;
+#float-right-text-designer h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    margin: 15% 10% 5% 5%;
+}
+
+#float-right-text-designer h2 {
+    font-size: 20px;
     text-align: center;
     font-weight: lighter;
     letter-spacing: 2px;
-    margin: 0% 10% 10% 0%;
+    margin-bottom: 10%;
 }
 
 #float-right-text-designer p {
     font-size: 16px;
-    text-align: left;
+    text-align: center;
     letter-spacing: 2px;
     margin: 0% 15% 10% 0%;
-}
-
-.overlay-text-box {
-    margin-right: 10%;
-    margin-top: 15%;
-    height:400px;
-}
-
-.overlay-text-box h2 {
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 10px;
-    margin: 0% 5% 0% 5%;
-    padding-top: 10%;
-    padding-bottom: 5%;
-}
-
-.overlay-text-box a {
-    text-decoration: none;
-    color: #212121;
-}
-
-.overlay-text-box a:hover {
-   text-decoration: underline 1px solid #212121;
 }
 
 #float-left-image-designer {
