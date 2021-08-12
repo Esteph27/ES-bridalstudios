@@ -907,8 +907,7 @@ p {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
-    
-    /* #menu {
+    #menu {
         clear: left;
         float: left;
         text-align: left;
@@ -919,11 +918,11 @@ p {
         display: inline-block;
         list-style-type: none;
         margin-left: 2%;
-    } */
-
-    #menu{
-        display: none;
     }
+
+    /* #menu{
+        display: none;
+    } */
 
     #logo {
         width: 145%;
@@ -938,23 +937,39 @@ p {
         background-position: center;
     }
 
-    /* buttons */
-
-    #button {
-        margin: auto;
-        width: auto;
-        display: inline-block;
+    #image-center-2 {
+        margin: 0%;
+        width: 100%;
+        background-position: 35%;
     }
 
-     /* sections */
-
-    .section-center, #section-sustainability, .section-testimonial, #section-ethos {
+    /* sections and divs  */ 
+    
+    .section-center, #section-sustainability, .section-testimonial, #section-ethos, #section-cta {
         height: auto;
         margin-top: 10%;
         margin-bottom: 10%;
     }
 
-    .section-center h1, #section-sustainability h1 {
+    #float-right-text-designer, #float-left-image-designer {
+        margin: 0;
+        margin-top: 5%;
+        width: 100%;
+        display: inline-block;
+    }
+
+    #float-right-consultation, #float-left-consulation, #float-right-followup, #float-left-followup, #float-left-review,
+    #float-right-review, #float-right-fittings, #float-left-fittings, #float-left-final, #float-right-final, #section-cta {
+        margin: 0;
+        margin-top: 5%;
+        width: 100%;
+        display: inline-block;
+    }
+
+    /* h1, h2, p */ 
+    
+    .section-center h1, #section-sustainability h1, #float-right-consultation h1, 
+    #float-left-followup h1 , #float-right-review h1 , #float-left-fittings h1, #float-right-final h1 {
         width: auto; 
         width: 100%;
         margin: auto;
@@ -969,7 +984,8 @@ p {
         margin: 5%;
     }
 
-    .section-center p, #section-sustainability p, #float-right-text-designer p, #section-ethos p  {
+    .section-center p, #section-sustainability p, #float-right-text-designer p, #section-ethos p, #float-right-consultation p, 
+    #float-left-followup p , #float-right-review p , #float-left-fittings p, #float-right-final p {
         width: auto;
         margin: auto;
         text-align: center;
@@ -990,19 +1006,12 @@ p {
         margin-top: 10%;
     }
 
-    #image-center-2 {
-        margin: 0%;
-        width: 100%;
-        background-position: 35%;
-    }
-
-    #float-right-text-designer, #float-left-image-designer {
-        margin: 0;
-        margin-top: 5%;
-        width: 100%;
+    /* button */ 
+    #button {
+        margin: auto;
+        width: auto;
         display: inline-block;
     }
-
 
 
     
