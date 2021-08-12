@@ -945,7 +945,7 @@ p {
 
     /* sections and divs  */ 
     
-    .section-center, #section-sustainability, .section-testimonial, #section-ethos, #section-cta {
+    .section-center, #section-sustainability, .section-testimonial, #section-ethos, #section-cta, #section-faq, .overlay {
         height: auto;
         margin-top: 10%;
         margin-bottom: 10%;
@@ -1002,7 +1002,7 @@ p {
         text-align: center;
     }
 
-    #section-ethos h2, .section h2 {
+    #section-ethos h2, .section h2, #section-faq h2 {
         font-size: inherit;
         width: auto;
         margin: auto;
@@ -1011,7 +1011,7 @@ p {
     }
 
     .section-center p, #section-sustainability p, #float-right-text-designer p, #section-ethos p, #float-right-consultation p, 
-    #float-left-followup p , #float-right-review p , #float-left-fittings p, #float-right-final p, .section p {
+    #float-left-followup p , #float-right-review p , #float-left-fittings p, #float-right-final p, .section p, .section-faq p {
         width: auto;
         margin: auto;
         text-align: center;
@@ -1039,7 +1039,5 @@ p {
         display: inline-block;
     }
 
-
-    
 
 }
