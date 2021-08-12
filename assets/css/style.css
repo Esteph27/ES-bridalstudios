@@ -951,6 +951,12 @@ p {
         margin-bottom: 10%;
     }
 
+    .section {
+        height: auto;
+        margin-top: 30%;
+        margin-bottom: 10%;
+    }
+
     #float-right-text-designer, #float-left-image-designer {
         margin: 0;
         margin-top: 5%;
@@ -966,18 +972,38 @@ p {
         display: inline-block;
     }
 
+    #form {
+        margin: 0;
+        margin-top: 15%;
+        height: inherit;
+        width: 100%;
+        display: inline-block;
+    }
+
+    label, input {
+        margin-left: 5px;
+    }
+
+    #float-right-contact-image {
+        margin: 0;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+        display: inline-block;
+    }
+
     /* h1, h2, p */ 
     
     .section-center h1, #section-sustainability h1, #float-right-consultation h1, 
-    #float-left-followup h1 , #float-right-review h1 , #float-left-fittings h1, #float-right-final h1 {
+    #float-left-followup h1 , #float-right-review h1 , #float-left-fittings h1, #float-right-final h1, .section h1 {
         width: auto; 
         width: 100%;
         margin: auto;
         text-align: center;
     }
 
-    #section-ethos h2 {
-    font-size: inherit;
+    #section-ethos h2, .section h2 {
+        font-size: inherit;
         width: auto;
         margin: auto;
         text-align: center;
@@ -985,7 +1011,7 @@ p {
     }
 
     .section-center p, #section-sustainability p, #float-right-text-designer p, #section-ethos p, #float-right-consultation p, 
-    #float-left-followup p , #float-right-review p , #float-left-fittings p, #float-right-final p {
+    #float-left-followup p , #float-right-review p , #float-left-fittings p, #float-right-final p, .section p {
         width: auto;
         margin: auto;
         text-align: center;
