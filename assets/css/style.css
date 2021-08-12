@@ -910,29 +910,27 @@ p {
     #menu {
         clear: left;
         float: left;
-        text-align: left;
-        background-color: rgba(252, 250, 251, 0.9);
+        background-color: rgba(252, 250, 251, 0.8);
     }
 
     #menu li {
-        display: inline-block;
-        list-style-type: none;
-        margin-left: 2%;
+        float: left;
+        text-align: right;
+        display: inline;
     }
-
-    /* #menu{
-        display: none;
-    } */
-
+    
     #logo {
         width: 145%;
         overflow: auto;
+        display: inline-block;
+        margin: 0;
+        margin-bottom: 5%;
     }
 
     /* images */
 
     #hero-image, #image-center, #testimonial-image, #testimonial-image-2, #section-consultation {
-        margin: 0%;
+        margin: 0;
         width: 100%;
         background-position: center;
     }
@@ -1011,7 +1009,7 @@ p {
     }
 
     .section-center p, #section-sustainability p, #float-right-text-designer p, #section-ethos p, #float-right-consultation p, 
-    #float-left-followup p , #float-right-review p , #float-left-fittings p, #float-right-final p, .section p, .section-faq p {
+    #float-left-followup p , #float-right-review p , #float-left-fittings p, #float-right-final p, .section p, #section-faq p {
         width: auto;
         margin: auto;
         text-align: center;
@@ -1038,6 +1036,4 @@ p {
         width: auto;
         display: inline-block;
     }
-
-
 }
