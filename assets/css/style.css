@@ -948,23 +948,33 @@ p {
 
      /* sections */
 
-    .section-center, #section-sustainability, .section-testimonial {
+    .section-center, #section-sustainability, .section-testimonial, #section-ethos {
         height: auto;
         margin-top: 10%;
         margin-bottom: 10%;
     }
 
     .section-center h1, #section-sustainability h1 {
+        width: auto; 
         width: 100%;
         margin: auto;
         text-align: center;
     }
 
-    .section-center p, #section-sustainability p  {
+    #section-ethos h2 {
+    font-size: inherit;
         width: auto;
         margin: auto;
         text-align: center;
         margin: 5%;
+    }
+
+    .section-center p, #section-sustainability p, #float-right-text-designer p, #section-ethos p  {
+        width: auto;
+        margin: auto;
+        text-align: center;
+        margin: 5%;
+        font-size: inherit;
     }
 
     #image-center h1 {
@@ -972,5 +982,29 @@ p {
         text-align: center;
         position: relative;
     }
+
+    .section-top h1 {
+        width: auto;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 10%;
+    }
+
+    #image-center-2 {
+        margin: 0%;
+        width: 100%;
+        background-position: 35%;
+    }
+
+    #float-right-text-designer, #float-left-image-designer {
+        margin: 0;
+        margin-top: 5%;
+        width: 100%;
+        display: inline-block;
+    }
+
+
+
+    
 
 }
