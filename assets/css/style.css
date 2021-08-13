@@ -13,7 +13,7 @@ body {
 
 h1 {
     font-family: Playfair Display SC, sans-serif; 
-    font-weight: 70;
+    font-weight: 100;
     color: #212121;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -21,7 +21,7 @@ h1 {
 
 h2 {
     font-family: Playfair Display SC, sans-serif; 
-    font-weight: 70;
+    font-weight: 100;
     color: #212121;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -297,7 +297,7 @@ h2 {
     filter: grayscale(50%);
 }
 
-#button {
+ #button {
     border: none;
     background-color: rgba(252, 250, 251, 0.8);
     width: 50%;
@@ -321,6 +321,7 @@ h2 {
 #button a:hover {
     border-bottom: 1px solid #212121;
 }
+
 
 /* THE STUDIOS PAGE */
 
