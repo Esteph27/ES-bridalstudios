@@ -184,7 +184,7 @@ h2 {
 }
 
 #section-sustainability a:hover {
-    text-decoration: 1px solid #212121 underline;
+    text-decoration: underline solid #212121;
 }
 
 #section-sustainability p {
