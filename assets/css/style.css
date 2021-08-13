@@ -901,13 +901,16 @@ p {
     padding-bottom: 1%;
 }
 
-/* Media quries */
+/* Media queries */
 
 /* for mobile devices */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
-    
+    #logo {
+        display: none;
+    }
+
     #menu {
         position: static;
         margin-left: 20px;
@@ -920,19 +923,7 @@ p {
         font-size: 12px;
         margin-right: 12px;
         margin-left: 12px;
-        align: center;
     }
-    
-    /* #logo {
-        position: unset;
-        overflow: hidden;
-        width: 145%;
-    } */
-
-    #logo {
-        display: none;
-    }
-
 
     /* images */
 
@@ -1000,7 +991,7 @@ p {
     /* h1, h2, p */ 
     
     .section-center h1, #section-sustainability h1, #float-right-consultation h1, 
-    #float-left-followup h1 , #float-right-review h1 , #float-left-fittings h1, #float-right-final h1, .section h1 {
+    #float-left-followup h1, #float-right-review h1, #float-left-fittings h1, #float-right-final h1, .section h1 {
         width: auto; 
         width: 100%;
         margin: auto;
@@ -1016,7 +1007,7 @@ p {
     }
 
     .section-center p, #section-sustainability p, #float-right-text-designer p, #section-ethos p, #float-right-consultation p, 
-    #float-left-followup p , #float-right-review p , #float-left-fittings p, #float-right-final p, .section p, #section-faq p {
+    #float-left-followup p, #float-right-review p, #float-left-fittings p, #float-right-final p, .section p, #section-faq p {
         width: auto;
         margin: auto;
         text-align: center;
