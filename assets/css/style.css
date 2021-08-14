@@ -1021,8 +1021,7 @@ p {
         margin-top: 10%;
     }
 
-    /* button */ 
-    #button {
+    #section-consultation a {
         margin: auto;
         width: auto;
         display: inline-block;
