@@ -241,7 +241,6 @@ h2 {
     margin: 5% 20% 0% 20%;
 }
 
-
 #testimonial-image {
     height: 1500px;
     width: 80%;
@@ -646,7 +645,6 @@ h2 {
     text-align: justify;
 }
 
-
 /* 5. final fitting */
 
 #float-left-final {
@@ -731,7 +729,6 @@ h2 {
 #section-cta h1:hover {
     text-decoration: 1px underline;
 }
-
 
 /* CONTACT PAGE */
 
@@ -834,11 +831,11 @@ textarea {
 }
 
 #section-faq h2 {
-        text-align: center;
-        font-size: 20px;
-        letter-spacing: 5px;
-        margin: 5% 20% 5% 20%;
-    }
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin: 5% 20% 5% 20%;
+}
     
 #section-faq p {
     font-size: 16px;
@@ -904,18 +901,27 @@ p {
         display: none;
     }
 
+    #header {
+        height: 50px;
+    }
+
     #menu {
         position: static;
         margin-left: 20px;
-        height: 100px;
+        height: auto;
         width: 100%;
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     #menu li {
         text-align: right;
         font-size: 12px;
-        margin-right: 12px;
-        margin-left: 12px;
+        margin-right: 5px;
+        margin-left: 5px;
     }
 
     /* images */
