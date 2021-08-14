@@ -143,7 +143,7 @@ h2 {
     width: 80%;
     height: 1500px;
 
-    background-image: url('/assets/images/filipp-romanovski-2-unsplash.jpg');
+    background-image: url('../images/filipp-romanovski-2-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 30% 70%;
@@ -202,7 +202,7 @@ h2 {
     height: 800px;
     max-width: 100%;
 
-    background-image: url('/assets/images/ethan-bodnar-unsplash.jpg');
+    background-image: url('../images/ethan-bodnar-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 25% 75%;
@@ -248,7 +248,7 @@ h2 {
     margin-right: auto;
     margin-top: 5%;
 
-    background-image: url('/assets/images/p&j-4.jpg');
+    background-image: url('../images/p&j-4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 20% 80%;
@@ -272,7 +272,7 @@ h2 {
     margin-right: auto;
     margin-bottom: 10%;
 
-    background-image: url('/assets/images/paige.jpg');
+    background-image: url('../images/paige.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 20% 80%;
@@ -288,7 +288,7 @@ h2 {
     width: 100%;
     height: 950px;
 
-    background-image: url('/assets/images/studio2.jpg');
+    background-image: url('../images/studio2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% 70%;
@@ -328,7 +328,7 @@ h2 {
     width: 100%;
     height: 1000px;
 
-    background-image: url('/assets/images/roberto-nickson-2unsplash.jpg');
+    background-image: url('../images/roberto-nickson-2unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -352,7 +352,7 @@ h2 {
     width: 80%;
     height: 1500px;
 
-    background-image: url('/assets/images/roberto-nickson-unsplash.jpg');
+    background-image: url('../images/roberto-nickson-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 30% 70%;
@@ -398,7 +398,7 @@ h2 {
     width: 48%;
     height: 990px;
 
-    background-image: url('/assets/images/ESTEPH2.jpeg');
+    background-image: url('../images/ESTEPH2.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 60% 40%;
@@ -410,7 +410,7 @@ h2 {
     width: 100%;
     height: auto;
 
-    background-image: url('/assets/images/IMG_6898.jpg');
+    background-image: url('../images/IMG_6898.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 60% 40%;
@@ -470,7 +470,7 @@ h2 {
     float:left;
     display: block;
 
-    background-image: url('/assets/images/studio2.jpg');
+    background-image: url('../images/studio2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 60% 70%;
@@ -515,7 +515,7 @@ h2 {
     float: right;
     display: block;
 
-    background-image: url('/assets/images/IMG_6898.jpg');
+    background-image: url('../images/IMG_6898.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 30% 70%;
@@ -567,7 +567,7 @@ h2 {
     float:left;
     display: block;
 
-    background-image: url('/assets/images/lace_skirt.jpeg');
+    background-image: url('../images/lace_skirt.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 70% 30%;
@@ -612,7 +612,7 @@ h2 {
     float: right;
     display: block;
 
-    background-image: url('/assets/images/weddingdress-unsplash.jpg');
+    background-image: url('../images/weddingdress-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 55%;
@@ -657,7 +657,7 @@ h2 {
     float:left;
     display: block;
 
-    background-image: url('/assets/images/duo-chen-s-unsplash.jpg');
+    background-image: url('../images/duo-chen-s-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% 40%;
@@ -805,7 +805,7 @@ textarea {
     margin-top: 15%;
     margin-bottom: 10%;
 
-    background-image: url('/assets/images/filipp-romanovski-3unsplash.jpg');
+    background-image: url('../images/filipp-romanovski-3unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% 90%;
@@ -822,7 +822,7 @@ textarea {
     margin-top: 5%;
     margin-bottom: 10%;
 
-    background-image: url('/assets/images/benigno-hoyuela-unsplash.jpg');
+    background-image: url('../images/benigno-hoyuela-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
