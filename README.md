@@ -12,11 +12,11 @@ The main features is a large hero image for impact and a CTA button to directly 
 
 Desktop: Wireframe layout for Home page.
 
-<img src="assets/images/home-page-desktop.png" height="200">
+<img src="assets/wireframes/home-page-desktop.png" height="200">
 
 Mobile: Wireframe layout for Home page. The first screen shows what the site will look like when it appears on a mobile device for the 1st time. The second screen shows what the site will look like once the use clicks on the 'hamburger' menu icon.
 
-<img src="assets/images/home-page-mobile.png" height="200">
+<img src="assets/wireframes/home-page-mobile.png" height="200">
 
 ### 'The Studios' page 
 
@@ -24,11 +24,11 @@ This page is the 'about' page outlining key company information such as intro, c
 
 Desktop: Wireframe layout for 'The Studios' page. The main focus for this page is to inform the user who the company is so the main feature on this page will be the copy along with a complimentary image. 
 
-<img src="assets/images/the-studios-desktop.png" height="200">
+<img src="assets/wireframes/the-studios-desktop.png" height="200">
 
 Mobile: Wireframe layout for 'The Studios' page.
 
-<img src="assets/images/the-studios-mobile.png" height="200">
+<img src="assets/wireframes/the-studios-mobile.png" height="200">
 
 ### 'The Details' page 
 
@@ -36,11 +36,11 @@ This page explains the service the company offers. The main feautre here will be
 
 Desktop: Wireframe layout for 'The Details' page.
 
-<img src="assets/images/the-details-desktop.png" height="200">
+<img src="assets/wireframes/the-details-desktop.png" height="200">
 
 Mobile: Wireframe layout for 'The Details' page. The user will have to scroll up and down the screen to see/read more information.  Do not want to include a scroll bar for aestheic reason (want to keep the page 'clean')
 
-<img src="assets/images/the-details-mobile.png" height="200">
+<img src="assets/wireframes/the-details-mobile.png" height="200">
 
 ### 'Brides' page 
 
@@ -48,7 +48,7 @@ This page will include stories of 'real' brides who the company has designed wed
 
 Desktop: Wireframe layout for 'Brides' page.
 
-<img src="assets/images/brides-desktop.png" height="200">
+<img src="assets/wireframes/brides-desktop.png" height="200">
 
 Mobile: Wireframe layout for 'Brides' page.
 
@@ -60,11 +60,11 @@ Contact page where the user will be prompted to contact the company directly, or
 
 Desktop: Wireframe layout for 'Contact' page.
 
-<img src="assets/images/contact-desktop.png" height="200">
+<img src="assets/wireframes/contact-desktop.png" height="200">
 
 Mobile: Wireframe layout for 'Contact' page.
 
-<img src="assets/images/contact-mobile.png" height="200">
+<img src="assets/wireframes/contact-mobile.png" height="200">
 
 # Testing 
 
