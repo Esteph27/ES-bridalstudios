@@ -297,28 +297,26 @@ h2 {
     filter: grayscale(50%);
 }
 
- #button {
-    border: none;
+#section-consultation a {
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     background-color: rgba(252, 250, 251, 0.8);
-    width: 50%;
-    height: 120px;
-    margin-top: 25%;
-    margin-left: 25%;
-   
+
+    width: 40%;
     font-family: Playfair Display SC, sans-serif; 
     font-size: 40px;
+    text-align: center;
+    text-decoration: none;
     color: #212121;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
     font-weight: 100;
     text-transform: uppercase;
 }
 
-#button a {
-    text-decoration: none;
-    color: #212121;
-}
-
-#button a:hover {
+#section-consultation a:hover {
     border-bottom: 1px solid #212121;
 }
 
