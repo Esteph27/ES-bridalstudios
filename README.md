@@ -8,7 +8,7 @@ This website is made for both the bride who has no limits and for the designer t
 
 ![home page on laptop screen](assets/device-screens/home_page.png)
 
-![mobile screen](aassets/device-screens/home_page.png)
+![desktop screen](assets/device-screens/details-page-desktop.png)
 
 ![mobile screen](assets/device-screens/studios-mobilescreen.png)
 
