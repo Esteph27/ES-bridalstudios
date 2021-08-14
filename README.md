@@ -91,7 +91,9 @@ The page provides further information to the end user/potential clients and answ
 
 # BUGS
 
-No bugs were encountered (luckily!)
+Solved bugs:
+
+- Initially my images were not displaying on the live site because my file paths were incorrect, I fixed it by changing '/assest/ to '../'.
 
 # VALIDATOR TESTING
 
